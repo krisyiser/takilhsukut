@@ -37,7 +37,7 @@ export default function Header() {
   />
   {/* Texto lateral */}
   <div>
-    <h1 className="text-2xl font-serif font-bold text-totonaca-obsidiana-800">
+    <h1 className="text-2xl font-serif font-bold text-totoginaca-obsidiana-800">
       Complejo Cultural
     </h1>
     <p className="text-base text-totonaca-tierra-600">Takilhtsukut</p>
