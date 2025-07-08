@@ -10,7 +10,7 @@ export default function DanzantesMusicosPage() {
     {
       title: "Grupo Tradicional Kiwikgolo",
       description: "Maestros en la preservación de danzas ceremoniales y música ancestral Totonaca con más de 30 años de trayectoria.",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop",
+      image: "/Requerimiento para diapositivas/3. Danzantes y Músicos Tradicionales/Fotos de danzas en acción  Instrumentos musicales/IMG_6446.JPG",
       specialties: ["Danza de los Voladores", "Música ceremonial", "Instrumentos ancestrales"],
       members: 12,
       founded: "1992"
@@ -18,7 +18,7 @@ export default function DanzantesMusicosPage() {
     {
       title: "Ensamble Takilhtsukut",
       description: "Jóvenes músicos que fusionan instrumentos tradicionales con sonidos contemporáneos manteniendo la esencia Totonaca.",
-      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop",
+      image: "/Requerimiento para diapositivas/3. Danzantes y Músicos Tradicionales/Fotos de danzas en acción  Instrumentos musicales/HHP_8183.JPG",
       specialties: ["Fusión contemporánea", "Composiciones propias", "Talleres educativos"],
       members: 8,
       founded: "2015"
@@ -26,7 +26,7 @@ export default function DanzantesMusicosPage() {
     {
       title: "Danzantes del Amanecer",
       description: "Grupo especializado en danzas rituales del equinoccio y ceremonias sagradas del calendario Totonaco.",
-      image: "https://images.unsplash.com/photo-1529258283598-8d6fe60b27f4?w=800&h=600&fit=crop",
+      image: "/Requerimiento para diapositivas/3. Danzantes y Músicos Tradicionales/Fotos de danzas en acción  Instrumentos musicales/IMG_6452.JPG",
       specialties: ["Danzas rituales", "Ceremonias de equinoccio", "Teatro danza"],
       members: 15,
       founded: "2003"
@@ -34,7 +34,7 @@ export default function DanzantesMusicosPage() {
     {
       title: "Mujeres Cantoras",
       description: "Preservadoras de los cantos tradicionales femeninos y las melodías que acompañan los trabajos del hogar y la siembra.",
-      image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop",
+      image: "/Requerimiento para diapositivas/3. Danzantes y Músicos Tradicionales/Fotos de danzas en acción  Instrumentos musicales/IMG_9865.JPG",
       specialties: ["Cantos tradicionales", "Música ceremonial femenina", "Transmisión oral"],
       members: 10,
       founded: "1998"
@@ -193,7 +193,7 @@ export default function DanzantesMusicosPage() {
         subtitle="Música y Danza Tradicional Totonaca"
         title="Danzantes y Músicos"
         description="Los guardianes del arte sonoro y corporal ancestral, preservando las melodías, ritmos y movimientos que han dado vida a nuestras ceremonias durante milenios"
-        backgroundImage="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1920&h=1080&fit=crop"
+        backgroundImage="/Requerimiento para diapositivas/3. Danzantes y Músicos Tradicionales/Fotos de danzas en acción  Instrumentos musicales/HHP_8183.JPG"
       >
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button href="#grupos" size="lg" variant="cultural">
@@ -245,7 +245,7 @@ export default function DanzantesMusicosPage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop"
+                src="/Requerimiento para diapositivas/3. Danzantes y Músicos Tradicionales/Fotos de danzas en acción  Instrumentos musicales/IMG_6977.JPG"
                 alt="Músicos tradicionales"
                 className="rounded-lg shadow-2xl"
               />

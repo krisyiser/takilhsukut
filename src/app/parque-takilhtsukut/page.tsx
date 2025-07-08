@@ -11,7 +11,7 @@ export default function ParqueTakilhtsukutPage() {
       description:
         "Espacio ceremonial donde se celebra la Danza de los Voladores y se realizan eventos masivos de preservación cultural.",
       image:
-        "https://images.unsplash.com/photo-1529258283598-8d6fe60b27f4?w=800&h=600&fit=crop",
+        "/Requerimiento para diapositivas/6. Consejo de Voladores/IMG_9303.JPG",
       features: ["Ceremonias rituales", "Encuentros culturales", "Eventos masivos"]
     },
     {
@@ -19,7 +19,7 @@ export default function ParqueTakilhtsukutPage() {
       description:
         "Centro espiritual y político del pueblo Totonaca, dirigido por el Consejo de Abuelos y Abuelas. Lugar de diálogo y toma de decisiones tradicionales.",
       image:
-        "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop",
+        "/Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/KANTIYÁN/Napuxkun Lakgkgolon 2022.jpg",
       features: ["Gobernanza tradicional", "Talleres comunitarios", "Sabiduría ancestral"]
     },
     {
@@ -27,7 +27,7 @@ export default function ParqueTakilhtsukutPage() {
       description:
         "Espacio educativo y de creación artística fundado en 2006. Forma parte del Registro de Buenas Prácticas de Salvaguardia de la UNESCO.",
       image:
-        "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop",
+        "Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/ALFARERÍA TRADICIONAL/IMG_4808.JPG",
       features: ["Formación artística", "Lengua y tradición", "Modelo educativo propio"]
     },
     {
@@ -35,7 +35,7 @@ export default function ParqueTakilhtsukutPage() {
       description:
         "Espacios de reflexión y conexión con la naturaleza. Albergan especies de uso ceremonial y medicinal. Parte de la política climática Totonaca.",
       image:
-        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+        "/Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/TIERRA/IMG_0153.JPG",
       features: ["Reforestación", "Etnobotánica", "Preservación ambiental"]
     }
   ];
@@ -77,7 +77,7 @@ export default function ParqueTakilhtsukutPage() {
         subtitle="Corazón Cultural Totonaca"
         title="Parque Takilhtsukut"
         description="Santuario del Patrimonio Cultural, epicentro de espiritualidad, arte, formación y gobernanza indígena."
-        backgroundImage="https://images.unsplash.com/photo-1529258283598-8d6fe60b27f4?w=1920&h=1080&fit=crop"
+        backgroundImage="\Requerimiento para diapositivas\1. Imágenes Generales del Complejo\Dron2.JPG"
       />
 
       {/* Información General */}
@@ -115,7 +115,7 @@ export default function ParqueTakilhtsukutPage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop"
+                src="\Requerimiento para diapositivas\1. Imágenes Generales del Complejo\_MG_0340.JPG"
                 alt="Vista aérea del parque"
                 className="rounded-lg shadow-2xl"
               />
@@ -216,7 +216,7 @@ export default function ParqueTakilhtsukutPage() {
                   <div>
                     <p className="font-semibold">Dirección</p>
                     <p className="text-gray-300">
-                      Carretera Papantla-Choza, Km 1.5<br />Papantla de Olarte, Veracruz, México
+                      Carretera Poza Rica San Andrés km 17.5, Tajin, 93479<br />Papantla de Olarte, Veracruz, México
                     </p>
                   </div>
                 </div>

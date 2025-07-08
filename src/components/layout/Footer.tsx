@@ -30,15 +30,21 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Información principal */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-tierra rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">T</span>
-              </div>
-              <div>
-                <h3 className="text-lg font-serif font-bold">Complejo Cultural</h3>
-                <p className="text-sm text-totonaca-tierra-300">Takilhtsukut</p>
-              </div>
-            </div>
+            <div className="flex items-center space-x-4">
+  {/* Imagen del logo */}
+  <img
+    src="/Logos/Complejo Cultural (Javi)/Complejo Cultural Takilhsukut Portada.png"
+    alt="Logo Complejo Cultural Takilhtsukut"
+    className="w-20 h-20 object-contain rounded-full"
+  />
+  {/* Texto lateral */}
+  <div>
+    <h1 className="text-2xl font-serif font-bold text-white">
+      Complejo Cultural
+    </h1>
+    <p className="text-base text-totonaca-tierra-600">Takilhtsukut</p>
+  </div>
+</div>
             <p className="text-totonaca-obsidiana-300 text-sm leading-relaxed">
               Preservando y promoviendo la rica cultura Totonaca de Veracruz, México.
               Un espacio dedicado a las artes, tradiciones y el patrimonio cultural indígena.

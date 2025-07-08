@@ -6,20 +6,20 @@ import Button from '@/components/ui/Button';
 export default function HomePage() {
   const featuredSections = [
     {
-      title: "Festival Cumbre Tajín",
-      description:
-        "Celebración internacional de la cultura Totonaca que se lleva a cabo durante el equinoccio de primavera. Su programación incluye arte, música y espiritualidad en un entorno de diálogo intercultural.",
-      image:
-        "https://images.unsplash.com/photo-1529258283598-8d6fe60b27f4?w=800&h=600&fit=crop",
-      href: "/cumbre-tajin",
-      variant: "featured" as const,
-    },
+  title: "Festival Cumbre Tajín",
+  description:
+    "Celebración internacional de la cultura Totonaca que se lleva a cabo durante el equinoccio de primavera. Su programación incluye arte, música y espiritualidad en un entorno de diálogo intercultural.",
+  image:
+    "/Requerimiento para diapositivas/7. Cumbre Tajin Eventos/IMG_5364.JPG",
+  href: "/cumbre-tajin",
+  variant: "featured" as const,
+},
     {
       title: "Consejo de Voladores",
       description:
         "Organismo tradicional responsable de proteger y transmitir la Ceremonia Ritual de los Voladores a nuevas generaciones, asegurando su continuidad y respeto como Patrimonio de la Humanidad.",
       image:
-        "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop",
+        "/Requerimiento para diapositivas/6. Consejo de Voladores/HHP_7532.JPG",
       href: "/consejo-voladores",
       variant: "cultural" as const,
     },
@@ -28,7 +28,7 @@ export default function HomePage() {
       description:
         "Institución educativa fundada por y para los pueblos originarios, dedicada a la formación integral en saberes tradicionales y artísticos del Totonacapan.",
       image:
-        "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop",
+        "/Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/KANTIYÁN/abuelos IMG_2250.jpg",
       href: "/centro-artes",
       variant: "cultural" as const,
     },
@@ -96,7 +96,7 @@ export default function HomePage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop"
+                src="\Requerimiento para diapositivas\1. Imágenes Generales del Complejo\Dron2.JPG"
                 alt="Artesanías Totonacas"
                 className="rounded-lg shadow-2xl"
               />

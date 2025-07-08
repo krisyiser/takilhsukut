@@ -65,7 +65,7 @@ export default function HistoriaPage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop"
+                src="\Requerimiento para diapositivas\1. Imágenes Generales del Complejo\_MG_0361.JPG"
                 alt="Centro cultural Totonaca"
                 className="rounded-lg shadow-2xl"
               />

@@ -15,19 +15,19 @@ export default function CumbreTajinPage() {
     {
       title: "Ceremonias Tradicionales",
       description: "Rituales sagrados y ceremonias ancestrales que conectan con la espiritualidad y cosmovisión Totonaca.",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop",
+      image: "/Requerimiento para diapositivas/7. Cumbre Tajin Eventos/IMG_4850.JPG",
       icon: <Star className="w-6 h-6 text-totonaca-jade-500" />
     },
     {
       title: "Danza de los Voladores",
       description: "La ceremonia principal del festival, donde los voladores realizan su ritual sagrado ante miles de espectadores.",
-      image: "https://images.unsplash.com/photo-1529258283598-8d6fe60b27f4?w=800&h=600&fit=crop",
+      image: "/Requerimiento para diapositivas/6. Consejo de Voladores/IMG_9317.JPG",
       icon: <Users className="w-6 h-6 text-totonaca-tierra-500" />
     },
     {
       title: "Mercado Artesanal",
       description: "Exposición y venta de artesanías tradicionales Totonacas, gastronomía local y productos culturales.",
-      image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop",
+      image: "/Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/CORAZÓN DE LA MADERA/_MG_1104.JPG",
       icon: <MapPin className="w-6 h-6 text-totonaca-copal-500" />
     }
   ];
@@ -180,7 +180,7 @@ export default function CumbreTajinPage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop"
+                src="/Requerimiento para diapositivas/7. Cumbre Tajin Eventos/IMG_5496.JPG"
                 alt="Historia del Festival"
                 className="rounded-lg shadow-2xl"
               />

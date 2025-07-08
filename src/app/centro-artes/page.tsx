@@ -101,7 +101,7 @@ export default function CentroArtesPage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop"
+                src="/Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/KANTIYÁN/IMG_5308.JPG"
                 alt="Aprendizaje ancestral"
                 className="rounded-lg shadow-2xl"
               />
@@ -128,7 +128,7 @@ export default function CentroArtesPage() {
                 key={index}
                 title={casa}
                 description="Espacio de aprendizaje espiritual, artístico y comunitario"
-                image="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop"
+                image="/Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/KANTIYÁN/Abuelas.jpeg"
                 variant="cultural"
                 className="h-full"
               />

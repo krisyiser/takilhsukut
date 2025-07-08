@@ -56,7 +56,7 @@ export default function MujeresDeHumoPage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1600741235277-9013a2f50913?w=800&h=600&fit=crop"
+                src="/Requerimiento para diapositivas/4. Cocina de mujeres de humo/IMG_1013.JPG"
                 alt="Cocineras Totonacas"
                 className="rounded-lg shadow-2xl"
               />

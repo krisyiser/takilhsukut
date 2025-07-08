@@ -18,7 +18,7 @@ export default function BibliotecaPage() {
       title: "Tradición Oral",
       count: 156,
       description: "Grabaciones de cuentos, leyendas y relatos de los ancianos de la comunidad",
-      image: "https://images.unsplash.com/photo-1589998059171-988d887df646?w=800&h=600&fit=crop",
+      image: "/Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/MEDIOS DE COMUNICACIÓN/IMG_5491.JPG",
       type: "oral",
       formats: ["Audio MP3", "Video", "Transcripción"]
     },
@@ -26,7 +26,7 @@ export default function BibliotecaPage() {
       title: "Estudios Antropológicos",
       count: 189,
       description: "Investigaciones académicas sobre cultura, sociología y antropología Totonaca",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+      image: "/Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/CI/IMG_0237.JPG",
       type: "academic",
       formats: ["PDF", "Artículos", "Tesis"]
     },
@@ -34,7 +34,7 @@ export default function BibliotecaPage() {
       title: "Música y Danza",
       count: 98,
       description: "Partituras, coreografías y registros audiovisuales de expresiones artísticas",
-      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop",
+      image: "/Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/MÚSICA TRADICIONAL/IMG_5670.JPG",
       type: "artistic",
       formats: ["Video HD", "Audio", "Partituras"]
     },
@@ -42,7 +42,7 @@ export default function BibliotecaPage() {
       title: "Lengua Totonaca",
       count: 312,
       description: "Diccionarios, gramáticas y material didáctico para aprender el idioma ancestral",
-      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop",
+      image: "/Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/PALABRA FLORIDA/IMG_5277.JPG",
       type: "language",
       formats: ["PDF", "Audio", "Ejercicios interactivos"]
     },
@@ -50,7 +50,7 @@ export default function BibliotecaPage() {
       title: "Medicina Tradicional",
       count: 134,
       description: "Conocimientos sobre plantas medicinales y prácticas curativas ancestrales",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop",
+      image: "/Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/MEDICINA TRADICIONAL/IMG_9075.jpg",
       type: "medicine",
       formats: ["PDF", "Ilustraciones", "Videos explicativos"]
     }
@@ -196,7 +196,7 @@ export default function BibliotecaPage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop"
+                src="/Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/CI/IMG_0033.jpg"
                 alt="Investigación y documentos"
                 className="rounded-lg shadow-2xl"
               />

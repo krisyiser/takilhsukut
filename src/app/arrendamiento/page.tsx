@@ -14,7 +14,7 @@ export default function ArrendamientoPage() {
       size: "612 m²",
       location: "Área central del parque",
       image:
-        "https://images.unsplash.com/photo-1581090700227-1e8aa09b5791?w=800&h=600&fit=crop",
+        "/Requerimiento para diapositivas/5 Arrendamiento de espacios_FALTA/Arrendamiento de Espacios por cada espacio/_MG_4385.jpg",
     },
     {
       name: "Foro Nicho de la Música",
@@ -24,68 +24,8 @@ export default function ArrendamientoPage() {
       size: "3,000 m²",
       location: "Zona cultural sur",
       image:
-        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&h=600&fit=crop",
+        "/Requerimiento para diapositivas/5 Arrendamiento de espacios_FALTA/Arrendamiento de Espacios por cada espacio/WhatsApp Image 2024-03-21 at 12.50.15 PM.jpeg",
     },
-    {
-      name: "Foro Nicho de la Purificación",
-      description:
-        "Espacio circular para actividades espirituales, artísticas y talleres que requieren contacto con la naturaleza.",
-      capacity: "150 personas",
-      size: "450 m²",
-      location: "Zona verde oriental",
-      image:
-        "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop",
-    },
-    {
-      name: "Foro Nicho de la Palabra",
-      description:
-        "Espacio semicerrado con butacas de piedra para lecturas, foros y actividades de narración oral.",
-      capacity: "150 personas",
-      size: "480 m²",
-      location: "Cerca del acceso principal",
-      image:
-        "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=600&fit=crop",
-    },
-    {
-      name: "Foro Nicho de la Danza",
-      description:
-        "Zona abierta con superficie de tierra para presentaciones de danza tradicional, entrenamiento físico o dinámicas grupales.",
-      capacity: "300 personas",
-      size: "750 m²",
-      location: "Área norte del parque",
-      image:
-        "https://images.unsplash.com/photo-1601322329999-02926b1db2cb?w=800&h=600&fit=crop",
-    },
-    {
-      name: "Plaza del Volador",
-      description:
-        "Espacio amplio para eventos masivos, ferias, ceremonias y espectáculos al aire libre, junto al poste ritual de voladores.",
-      capacity: "3,000 personas",
-      size: "4,800 m²",
-      location: "Zona central ceremonial",
-      image:
-        "https://images.unsplash.com/photo-1517519014922-8fc06e43cd06?w=800&h=600&fit=crop",
-    },
-    {
-      name: "Salones de Talleres",
-      description:
-        "8 espacios acondicionados con mesas, sillas y ventilación para actividades formativas, talleres, reuniones y seminarios.",
-      capacity: "20 personas por salón",
-      size: "32 m² cada uno",
-      location: "Zona académica",
-      image:
-        "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&h=600&fit=crop",
-    },
-    {
-      name: "Cancha de Usos Múltiples",
-      description:
-        "Espacio exterior techado ideal para actividades deportivas, ferias, exposiciones y eventos comunitarios.",
-      capacity: "500 personas",
-      size: "1,050 m²",
-      location: "Área deportiva",
-      image:
-        "https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&h=600&fit=crop",
-    }
   ];
 
   return (

@@ -78,7 +78,7 @@ export default function ConsejoVoladoresPage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1529258283598-8d6fe60b27f4?w=800&h=600&fit=crop"
+                src="\Requerimiento para diapositivas\2. Casas-Escuela (Centro de las Artes Indígenas)\DANZA\_MG_0080.JPG"
                 alt="Ceremonia de los Voladores"
                 className="rounded-lg shadow-2xl"
               />
