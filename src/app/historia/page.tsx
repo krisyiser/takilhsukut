@@ -4,43 +4,118 @@ import Card from '@/components/ui/Card';
 
 export default function HistoriaPage() {
   const timeline = [
-    {
-      year: "1992",
-      title: "Zona Arqueológica de El Tajín",
-      description:
-        "Reconocimiento como Patrimonio de la Humanidad por la UNESCO, primer paso hacia una red cultural que daría origen al Complejo."
-    },
-    {
-      year: "1998",
-      title: "Fundamentos del Plan Takilhtsukut",
-      description:
-        "Se concibe una estrategia integral para la salvaguardia del patrimonio cultural en el Totonacapan."
-    },
-    {
-      year: "2000",
-      title: "Primera edición de Cumbre Tajín",
-      description:
-        "El festival nace como una ventana para difundir la cultura Totonaca a nivel internacional."
-    },
-    {
-      year: "2006",
-      title: "Fundación del Centro de las Artes Indígenas",
-      description:
-        "Se inaugura como una institución educativa autogestiva, conformada por abuelos, artistas y sabios tradicionales."
-    },
-    {
-      year: "2009",
-      title: "UNESCO declara la Ceremonia de Voladores como Patrimonio",
-      description:
-        "Reconocimiento internacional a una de las prácticas más sagradas del pueblo Totonaca."
-    },
-    {
-      year: "2012",
-      title: "Centro de las Artes Indígenas en Registro UNESCO",
-      description:
-        "Inscripción del CAI como buena práctica de salvaguardia del patrimonio cultural inmaterial."
-    }
-  ];
+  {
+    year: "1872",
+    title: "Fundación de Poza Rica, Veracruz",
+    description: "Inicio de un asentamiento clave en la región norte del estado."
+  },
+  {
+    year: "1905",
+    title: "Se funda la comunidad de El Tajín",
+    description: "Establecimiento de la comunidad donde hoy se encuentra la zona arqueológica."
+  },
+  {
+    year: "1930-1938",
+    title: "División de San Miguel Grande",
+    description: "Se divide en Plan de Hidalgo y Plan de Palmar como parte del reordenamiento agrario."
+  },
+  {
+    year: "1936",
+    title: "Fundación de Reforma Escolín",
+    description: "Se crea esta comunidad en el marco del reparto agrario."
+  },
+  {
+    year: "1940",
+    title: "Cambio de cultivo predominante",
+    description: "La caña de azúcar es sustituida por el café como cultivo principal en la región."
+  },
+  {
+    year: "1948",
+    title: "Creación del Instituto Nacional Indigenista",
+    description: "Se funda el INI, con políticas orientadas a la integración indígena."
+  },
+  {
+    year: "1950",
+    title: "Revolución Verde en México",
+    description: "Modernización del campo mexicano, orientada a la maximización de la producción."
+  },
+  {
+    year: "1970",
+    title: "Expansión agrícola",
+    description: "Aumenta el cultivo de cítricos y la ganadería extensiva."
+  },
+  {
+    year: "1975",
+    title: "Nacimiento del Consejo Supremo Totonaca",
+    description: "Tata Juan Simbrón organiza los Consejos Supremos Indígenas como forma de representación legítima."
+  },
+  {
+    year: "1980",
+    title: "Declaración de Pátzcuaro",
+    description: "Reconocimiento del derecho de los pueblos indígenas a su lengua."
+  },
+  {
+    year: "1985",
+    title: "Carretera Papantla–Poza Rica",
+    description: "Se inaugura esta vía clave para la conexión regional."
+  },
+  {
+    year: "1990",
+    title: "Desaparición de los Consejos Supremos",
+    description: "Desarticulación política de los consejos indígenas como estrategia del Estado."
+  },
+  {
+    year: "1991",
+    title: "Fin del reparto agrario",
+    description: "Se concluye oficialmente el proceso de reparto de tierras."
+  },
+  {
+    year: "1992",
+    title: "Zona Arqueológica de El Tajín",
+    description: "Reconocimiento como Patrimonio Mundial por la UNESCO."
+  },
+  {
+    year: "1994",
+    title: "Levantamiento del EZLN",
+    description: "Estallido del movimiento indígena zapatista en Chiapas."
+  },
+  {
+    year: "1999",
+    title: "Gran diluvio",
+    description: "Evento climático de gran impacto en la región Totonaca."
+  },
+  {
+    year: "2000",
+    title: "Inauguración del Parque Takilhtsukut",
+    description: "Se consolida como sede de Cumbre Tajín y centro cultural totonaca."
+  },
+  {
+    year: "2006",
+    title: "Centro de las Artes Indígenas",
+    description: "Fundación del CAI como modelo educativo con base en saberes ancestrales."
+  },
+  {
+    year: "2009",
+    title: "Ceremonia de Voladores como Patrimonio Inmaterial",
+    description: "Reconocimiento de la UNESCO a esta práctica ritual."
+  },
+  {
+    year: "2012",
+    title: "Registro UNESCO del CAI",
+    description: "El Centro es reconocido como buena práctica de salvaguardia del patrimonio."
+  },
+  {
+    year: "2015",
+    title: "Fallece Tata Juan Simbrón",
+    description: "Su legado es continuado por Tata Gerardo Cruz como presidente del COTOCOC."
+  },
+  {
+    year: "2018",
+    title: "Plan Tlan Latamat",
+    description: "El Consejo Totonaca (COTOCOC) diseña un plan de vida digno para las comunidades."
+  }
+];
+
 
   return (
     <Layout>
