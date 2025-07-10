@@ -209,27 +209,27 @@ export default function ParqueTakilhtsukutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-serif font-bold mb-6">Cómo Llegar</h2>
+              <h2 className="text-3xl font-serif text-neutral-700 font-bold mb-6">Cómo Llegar</h2>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start space-x-3">
-                  <MapPin className="text-totonaca-oro-400 mt-1" size={20} />
+                  <MapPin className="text-neutral-700 mt-1" size={20} />
                   <div>
-                    <p className="font-semibold">Dirección</p>
-                    <p className="text-gray-300">
+                    <p className="font-semibold text-neutral-700">Dirección</p>
+                    <p className="text-neutral-700">
                       Carretera Poza Rica San Andrés km 17.5, Tajin, 93479<br />Papantla de Olarte, Veracruz, México
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <Clock className="text-totonaca-oro-400 mt-1" size={20} />
+                  <Clock className="text-neutral-700 mt-1" size={20} />
                   <div>
-                    <p className="font-semibold">Horarios</p>
-                    <p className="text-gray-300">Lunes a Domingo: 8:00 AM - 6:00 PM</p>
+                    <p className="font-semibold text-neutral-700">Horarios</p>
+                    <p className="text-neutral-700">Lunes a Domingo: 8:00 AM - 6:00 PM</p>
                   </div>
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 gap-4 text-neutral-700">
                 <Button href="/arrendamiento" variant="cultural">
                   Rentar Espacios
                 </Button>
@@ -240,29 +240,29 @@ export default function ParqueTakilhtsukutPage() {
             </div>
 
             <div className="bg-totonaca-obsidiana-800 rounded-lg p-6">
-              <h3 className="text-xl font-semibold mb-4">Información de Visita</h3>
+              <h3 className="text-xl font-semibold mb-4 text-neutral-700">Información de Visita</h3>
               <div className="space-y-3 text-sm">
-                <div className="flex justify-between">
+                <div className="flex justify-between text-neutral-700">
                   <span>Entrada General:</span>
-                  <span className="text-totonaca-oro-400">$50 MXN</span>
+                  <span className="text-neutral-700">$50 MXN</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between text-neutral-700">
                   <span>Estudiantes y Maestros:</span>
-                  <span className="text-totonaca-oro-400">$25 MXN</span>
+                  <span className="text-neutral-700">$25 MXN</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between text-neutral-700">
                   <span>Niños menores de 6 años:</span>
-                  <span className="text-totonaca-oro-400">Gratis</span>
+                  <span className="text-neutral-700">Gratis</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between text-neutral-700">
                   <span>Grupos (20+ personas):</span>
-                  <span className="text-totonaca-oro-400">$40 MXN c/u</span>
+                  <span className="text-neutral-700">$40 MXN c/u</span>
                 </div>
               </div>
 
               <div className="mt-6 pt-4 border-t border-totonaca-obsidiana-700">
-                <h4 className="font-semibold mb-2">Servicios Incluidos</h4>
-                <ul className="text-sm space-y-1 text-gray-300">
+                <h4 className="font-semibold mb-2 text-neutral-700">Servicios Incluidos</h4>
+                <ul className="text-sm space-y-1 text-neutral-700">
                   <li>• Acceso a todas las áreas del parque</li>
                   <li>• Presentación de Danza de los Voladores</li>
                   <li>• Visita al Centro de las Artes Indígenas</li>

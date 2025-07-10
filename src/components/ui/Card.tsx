@@ -21,9 +21,9 @@ export default function Card({
   variant = 'default'
 }: CardProps) {
   const variantClasses = {
-    default: 'bg-white border border-totonaca-tierra-200 hover:shadow-lg',
-    cultural: 'bg-gradient-to-br from-totonaca-jade-50 to-totonaca-tierra-50 border border-totonaca-jade-200 hover:shadow-xl',
-    featured: 'bg-gradient-to-br from-totonaca-oro-50 to-totonaca-copal-50 border border-totonaca-oro-200 hover:shadow-xl'
+    default: 'bg-dun border border-lion hover:shadow-lg',
+    cultural: 'bg-gradient-to-br from-dun to-lion border border-burntOrange hover:shadow-xl',
+    featured: 'bg-gradient-to-br from-claret to-wine border border-claret hover:shadow-xl'
   };
 
   const CardContent = () => (
@@ -39,12 +39,12 @@ export default function Card({
       )}
 
       <div className="p-6">
-        <h3 className="text-xl font-serif font-bold text-totonaca-obsidiana-800 mb-3">
+        <h3 className="text-xl font-serif font-bold text-black mb-3">
           {title}
         </h3>
 
         {description && (
-          <p className="text-totonaca-obsidiana-600 leading-relaxed mb-4">
+          <p className="text-black/70 leading-relaxed mb-4">
             {description}
           </p>
         )}
@@ -52,7 +52,7 @@ export default function Card({
         {children}
 
         {href && (
-          <div className="mt-4 flex items-center text-totonaca-tierra-600 hover:text-totonaca-tierra-700 transition-colors">
+          <div className="mt-4 flex items-center text-burntOrange hover:text-brownSugar transition-colors">
             <span className="text-sm font-medium">Leer más</span>
             <svg
               className="w-4 h-4 ml-1 transition-transform group-hover:translate-x-1"

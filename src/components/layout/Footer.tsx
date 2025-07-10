@@ -25,40 +25,36 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-totonaca-obsidiana-900 text-white">
+    <footer className="bg-gradient-dark-deep text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Información principal */}
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
-  {/* Imagen del logo */}
-  <img
-    src="/Logos/Complejo Cultural (Javi)/Complejo Cultural Takilhsukut Portada.png"
-    alt="Logo Complejo Cultural Takilhtsukut"
-    className="w-20 h-20 object-contain rounded-full"
-  />
-  {/* Texto lateral */}
-  <div>
-    <h1 className="text-2xl font-serif font-bold text-white">
-      Complejo Cultural
-    </h1>
-    <p className="text-base text-totonaca-tierra-600">Takilhtsukut</p>
-  </div>
-</div>
-            <p className="text-totonaca-obsidiana-300 text-sm leading-relaxed">
+              <img
+                src="/Logos/Complejo Cultural (Javi)/Complejo Cultural Takilhsukut Portada.png"
+                alt="Logo Complejo Cultural Takilhtsukut"
+                className="w-20 h-20 object-contain rounded-full"
+              />
+              <div>
+                <h1 className="text-2xl font-serif font-bold">Complejo Cultural</h1>
+                <p className="text-base text-lion">Takilhtsukut</p>
+              </div>
+            </div>
+            <p className="text-white/70 text-sm leading-relaxed">
               Preservando y promoviendo la rica cultura Totonaca de Veracruz, México.
               Un espacio dedicado a las artes, tradiciones y el patrimonio cultural indígena.
             </p>
 
             {/* Redes sociales */}
             <div className="flex space-x-4">
-              <a href="#" className="text-totonaca-obsidiana-400 hover:text-totonaca-oro-400 transition-colors">
+              <a href="#" className="text-white/60 hover:text-lion transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-totonaca-obsidiana-400 hover:text-totonaca-oro-400 transition-colors">
+              <a href="#" className="text-white/60 hover:text-lion transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-totonaca-obsidiana-400 hover:text-totonaca-oro-400 transition-colors">
+              <a href="#" className="text-white/60 hover:text-lion transition-colors">
                 <Youtube size={20} />
               </a>
             </div>
@@ -66,13 +62,13 @@ export default function Footer() {
 
           {/* Enlaces rápidos */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-totonaca-oro-400">Enlaces Rápidos</h4>
+            <h4 className="text-lg font-semibold mb-4 text-lion">Enlaces Rápidos</h4>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-totonaca-obsidiana-300 hover:text-totonaca-oro-400 transition-colors text-sm"
+                    className="text-white/70 hover:text-lion transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
@@ -83,13 +79,13 @@ export default function Footer() {
 
           {/* Secciones culturales */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-totonaca-jade-400">Cultura y Tradición</h4>
+            <h4 className="text-lg font-semibold mb-4 text-brownSugar">Cultura y Tradición</h4>
             <ul className="space-y-2">
               {culturalSections.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-totonaca-obsidiana-300 hover:text-totonaca-jade-400 transition-colors text-sm"
+                    className="text-white/70 hover:text-brownSugar transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
@@ -100,43 +96,43 @@ export default function Footer() {
 
           {/* Contacto */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-totonaca-tierra-400">Contacto</h4>
+            <h4 className="text-lg font-semibold mb-4 text-claret">Contacto</h4>
             <div className="space-y-3">
               <div className="flex items-start space-x-2">
-                <MapPin size={16} className="text-totonaca-tierra-400 mt-1 flex-shrink-0" />
-                <p className="text-totonaca-obsidiana-300 text-sm">
+                <MapPin size={16} className="text-claret mt-1 flex-shrink-0" />
+                <p className="text-white/70 text-sm">
                   Papantla de Olarte, Veracruz<br />
                   México
                 </p>
               </div>
               <div className="flex items-center space-x-2">
-                <Phone size={16} className="text-totonaca-tierra-400" />
+                <Phone size={16} className="text-claret" />
                 <a
                   href="tel:+52-784-842-0000"
-                  className="text-totonaca-obsidiana-300 hover:text-totonaca-tierra-400 transition-colors text-sm"
+                  className="text-white/70 hover:text-claret transition-colors text-sm"
                 >
-                  +52 (784) 842-0000
+                  +52 784-688-0008
                 </a>
               </div>
               <div className="flex items-center space-x-2">
-                <Mail size={16} className="text-totonaca-tierra-400" />
+                <Mail size={16} className="text-claret" />
                 <a
                   href="mailto:info@takilhtsukut.mx"
-                  className="text-totonaca-obsidiana-300 hover:text-totonaca-tierra-400 transition-colors text-sm"
+                  className="text-white/70 hover:text-claret transition-colors text-sm"
                 >
-                  info@takilhtsukut.mx
+                  complejoculturaltakil@gmail.com
                 </a>
               </div>
             </div>
 
             <div className="mt-4">
-              <h5 className="text-sm font-semibold mb-2 text-totonaca-copal-400">Servicios</h5>
+              <h5 className="text-sm font-semibold mb-2 text-burntOrange">Servicios</h5>
               <ul className="space-y-1">
                 {services.map((link) => (
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-totonaca-obsidiana-300 hover:text-totonaca-copal-400 transition-colors text-sm"
+                      className="text-white/70 hover:text-burntOrange transition-colors text-sm"
                     >
                       {link.name}
                     </Link>
@@ -148,11 +144,11 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-totonaca-obsidiana-700 mt-8 pt-8 text-center">
-          <p className="text-totonaca-obsidiana-400 text-sm">
+        <div className="border-t border-white/20 mt-8 pt-8 text-center">
+          <p className="text-white/60 text-sm">
             © {currentYear} Complejo Cultural Takilhtsukut. Todos los derechos reservados.
           </p>
-          <p className="text-totonaca-obsidiana-500 text-xs mt-2">
+          <p className="text-white/40 text-xs mt-2">
             Preservando el patrimonio cultural Totonaca para las futuras generaciones.
           </p>
         </div>

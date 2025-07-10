@@ -17,19 +17,24 @@ export default function Button({
   className = '',
   ...props
 }: ButtonProps) {
-  const baseClasses = 'inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed';
+  const baseClasses =
+    'inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed';
 
   const variantClasses = {
-    primary: 'bg-gradient-tierra text-white hover:shadow-lg focus:ring-totonaca-tierra-500',
-    secondary: 'bg-gradient-jade text-white hover:shadow-lg focus:ring-totonaca-jade-500',
-    cultural: 'bg-gradient-oro text-totonaca-obsidiana-800 hover:shadow-lg focus:ring-totonaca-oro-500',
-    outline: 'border-2 border-totonaca-tierra-600 text-totonaca-tierra-600 hover:bg-totonaca-tierra-600 hover:text-white focus:ring-totonaca-tierra-500'
+    primary:
+      'bg-gradient-lion text-white hover:shadow-lg focus:ring-lion/70',
+    secondary:
+      'bg-gradient-claret text-white hover:shadow-lg focus:ring-claret/60',
+    cultural:
+      'bg-gradient-copal text-blackDeep hover:shadow-lg focus:ring-copal/60',
+    outline:
+      'border-2 border-lion text-lion hover:bg-lion hover:text-white focus:ring-lion/60',
   };
 
   const sizeClasses = {
     sm: 'px-4 py-2 text-sm',
     md: 'px-6 py-3 text-base',
-    lg: 'px-8 py-4 text-lg'
+    lg: 'px-8 py-4 text-lg',
   };
 
   const classes = `${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;

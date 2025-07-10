@@ -9,22 +9,22 @@ export default function ConsejoVoladoresPage() {
     {
       title: "Salvaguarda del Ritual",
       description: "Asegurar la transmisión íntegra de la Ceremonia Ritual de Voladores desde su cosmovisión, simbolismo, música y estructura ancestral.",
-      icon: <Award className="w-8 h-8 text-totonaca-oro-500" />
+      icon: <Award className="w-8 h-8 text-lion" />
     },
     {
       title: "Formación Intergeneracional",
       description: "Transmitir el conocimiento ritual desde la infancia, fortaleciendo la espiritualidad y los saberes propios del pueblo Totonaca.",
-      icon: <BookOpen className="w-8 h-8 text-totonaca-jade-500" />
+      icon: <BookOpen className="w-8 h-8 text-brownSugar" />
     },
     {
       title: "Autonomía Cultural",
       description: "Ejercer el derecho a decidir sobre el destino, formas de organización, enseñanza y reconocimiento de los Voladores desde sus propias instituciones.",
-      icon: <Target className="w-8 h-8 text-totonaca-tierra-500" />
+      icon: <Target className="w-8 h-8 text-burntOrange" />
     },
     {
       title: "Difusión desde el Territorio",
       description: "Posicionar la ceremonia como patrimonio vivo y político desde el pensamiento indígena y en diálogo con el mundo.",
-      icon: <Users className="w-8 h-8 text-totonaca-copal-500" />
+      icon: <Users className="w-8 h-8 text-roseEbony" />
     }
   ];
 
@@ -59,44 +59,44 @@ export default function ConsejoVoladoresPage() {
       />
 
       {/* Introducción */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-dun">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-serif font-bold text-totonaca-obsidiana-800 mb-6">
+              <h2 className="text-3xl font-serif font-bold text-black mb-6">
                 Salvaguardia desde el Pensamiento Indígena
               </h2>
-              <p className="text-lg text-totonaca-obsidiana-600 leading-relaxed mb-6">
+              <p className="text-lg text-sealBrown leading-relaxed mb-6">
                 La Ceremonia Ritual de los Voladores fue declarada Patrimonio Cultural Inmaterial de la Humanidad en 2009 por la UNESCO. Ante este reconocimiento, los pueblos indígenas asumieron su derecho y responsabilidad de salvaguardar el ritual desde su propio pensamiento.
               </p>
-              <p className="text-lg text-totonaca-obsidiana-600 leading-relaxed mb-6">
+              <p className="text-lg text-sealBrown leading-relaxed mb-6">
                 El Consejo es una organización autogestiva que defiende su autonomía y regula la práctica ritual sin intervención externa. A través del Centro de las Artes Indígenas, mantiene la transmisión del conocimiento de manera intergeneracional, espiritual y artística.
               </p>
-              <p className="text-lg text-totonaca-obsidiana-600 leading-relaxed">
+              <p className="text-lg text-sealBrown leading-relaxed">
                 Este modelo de salvaguardia ha sido reconocido internacionalmente como una Buena Práctica por la UNESCO, consolidando al Consejo como una expresión viva de la autodeterminación cultural.
               </p>
             </div>
             <div className="relative">
               <img
-                src="\Requerimiento para diapositivas\2. Casas-Escuela (Centro de las Artes Indígenas)\DANZA\_MG_0080.JPG"
+                src="/Requerimiento para diapositivas/2. Casas-Escuela (Centro de las Artes Indígenas)/DANZA/_MG_0080.JPG"
                 alt="Ceremonia de los Voladores"
                 className="rounded-lg shadow-2xl"
               />
-              <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-oro rounded-full opacity-30"></div>
-              <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-jade rounded-full opacity-30"></div>
+              <div className="absolute -top-4 -right-4 w-20 h-20 bg-lion rounded-full opacity-30"></div>
+              <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-brownSugar rounded-full opacity-30"></div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Funciones del Consejo */}
-      <section className="py-16 bg-totonaca-tierra-50">
+      <section className="py-16 bg-dun">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-serif font-bold text-totonaca-obsidiana-800 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-serif font-bold text-black mb-4">
               Atribuciones Principales
             </h2>
-            <p className="text-xl text-totonaca-obsidiana-600 max-w-3xl mx-auto">
+            <p className="text-xl text-sealBrown max-w-3xl mx-auto">
               Estas son las acciones esenciales que guían su labor desde una perspectiva comunitaria y ceremonial
             </p>
           </div>
@@ -107,10 +107,10 @@ export default function ConsejoVoladoresPage() {
                 <div className="bg-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 shadow-lg">
                   {func.icon}
                 </div>
-                <h3 className="text-xl font-semibold text-totonaca-obsidiana-800 mb-3">
+                <h3 className="text-xl font-semibold text-black mb-3">
                   {func.title}
                 </h3>
-                <p className="text-totonaca-obsidiana-600 leading-relaxed">
+                <p className="text-sealBrown leading-relaxed">
                   {func.description}
                 </p>
               </div>
@@ -120,7 +120,7 @@ export default function ConsejoVoladoresPage() {
       </section>
 
       {/* Miembros del Consejo */}
-      <section className="py-16 bg-totonaca-obsidiana-900 text-white">
+      <section className="py-16 bg-blackDeep2 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-serif font-bold mb-4">
@@ -133,13 +133,13 @@ export default function ConsejoVoladoresPage() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {members.map((member, index) => (
-              <div key={index} className="bg-totonaca-obsidiana-800 rounded-lg p-6 text-center">
-                <div className="w-20 h-20 bg-gradient-oro rounded-full flex items-center justify-center mx-auto mb-4">
+              <div key={index} className="bg-chocolateCosmos2 rounded-lg p-6 text-center">
+                <div className="w-20 h-20 bg-lion rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users size={32} className="text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
-                <p className="text-totonaca-oro-400 font-medium mb-1">{member.role}</p>
-                <p className="text-totonaca-jade-400 text-sm mb-3">{member.experience}</p>
+                <p className="text-lion font-medium mb-1">{member.role}</p>
+                <p className="text-brownSugar text-sm mb-3">{member.experience}</p>
                 <p className="text-white/90 text-sm leading-relaxed">{member.description}</p>
               </div>
             ))}
