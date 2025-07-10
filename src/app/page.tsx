@@ -64,47 +64,44 @@ export default function HomePage() {
       </HeroSection>
 
       {/* Acerca del Complejo */}
-      <section className="py-16 bg-dun">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl lg:text-4xl font-serif font-bold text-black mb-6">
-                Un Modelo Cultural para el Futuro
-              </h2>
-              <p className="text-lg text-sealBrown leading-relaxed mb-6">
-                El Complejo Cultural Takilhtsukut es una visión estratégica del pueblo Totonaca para consolidar un modelo ejemplar de regeneración del patrimonio cultural, con más de dos décadas de cocreación colectiva. Este espacio reúne a comunidades, sabios tradicionales, colectivos de arte, instituciones y aliados nacionales e internacionales.
-              </p>
-              <p className="text-lg text-sealBrown leading-relaxed mb-6">
-                Articulado en torno al Parque Takilhtsukut, sede de festivales, foros y encuentros, integra espacios educativos como el Centro de las Artes Indígenas, la Ceremonia Ritual de Voladores, la comunidad de danzantes y músicos, el colectivo Mujeres de Humo y el Festival Cumbre Tajín. Estos pilares han sido reconocidos por la UNESCO como Patrimonio Cultural de la Humanidad.
-              </p>
-              <p className="text-lg text-sealBrown leading-relaxed mb-6">
-                El complejo promueve el desarrollo sostenible desde la gobernanza indígena, el arte, la educación, la gastronomía y el turismo cultural. Se consolida como un modelo vivo donde florecen el Tlan Latamat (el bien vivir), la economía solidaria, la sostenibilidad ambiental y la formación con identidad.
-              </p>
-              <Button href="/historia" variant="secondary">
-                Descubre Más
-              </Button>
-            </div>
-            <div className="relative">
-              <div
-                className="rounded-lg shadow-2xl overflow-hidden cursor-pointer"
-                onClick={() => videoRef.current?.play()}
-              >
-                <video
-                  ref={videoRef}
-                  controls
-                  preload="none"
-                  className="w-full h-auto rounded-lg"
-                >
-                  <source src="/Videos/visiontajin.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-gradient-lion rounded-full opacity-20" />
-              <div className="absolute -top-6 -right-6 w-32 h-32 bg-gradient-copal rounded-full opacity-20" />
-            </div>
-          </div>
+<section className="py-16 bg-dun">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 className="text-3xl lg:text-4xl font-serif font-bold text-black mb-6">
+          Un Modelo Cultural para el Futuro
+        </h2>
+        <p className="text-lg text-sealBrown leading-relaxed mb-6">
+          El Complejo Cultural Takilhtsukut es una visión estratégica del pueblo Totonaca para consolidar un modelo ejemplar de regeneración del patrimonio cultural, con más de dos décadas de cocreación colectiva. Este espacio reúne a comunidades, sabios tradicionales, colectivos de arte, instituciones y aliados nacionales e internacionales.
+        </p>
+        <p className="text-lg text-sealBrown leading-relaxed mb-6">
+          Articulado en torno al Parque Takilhtsukut, sede de festivales, foros y encuentros, integra espacios educativos como el Centro de las Artes Indígenas, la Ceremonia Ritual de Voladores, la comunidad de danzantes y músicos, el colectivo Mujeres de Humo y el Festival Cumbre Tajín. Estos pilares han sido reconocidos por la UNESCO como Patrimonio Cultural de la Humanidad.
+        </p>
+        <p className="text-lg text-sealBrown leading-relaxed mb-6">
+          El complejo promueve el desarrollo sostenible desde la gobernanza indígena, el arte, la educación, la gastronomía y el turismo cultural. Se consolida como un modelo vivo donde florecen el Tlan Latamat (el bien vivir), la economía solidaria, la sostenibilidad ambiental y la formación con identidad.
+        </p>
+        <Button href="/historia" variant="secondary">
+          Descubre Más
+        </Button>
+      </div>
+      <div className="relative">
+        <div className="rounded-lg shadow-2xl overflow-hidden">
+          <video
+            controls
+            preload="metadata"
+            playsInline
+            className="w-full h-auto rounded-lg"
+          >
+            <source src="/Videos/visiontajin.mp4" type="video/mp4" />
+            Tu navegador no admite la reproducción de video.
+          </video>
         </div>
-      </section>
-
+        <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-gradient-lion rounded-full opacity-20" />
+        <div className="absolute -top-6 -right-6 w-32 h-32 bg-gradient-copal rounded-full opacity-20" />
+      </div>
+    </div>
+  </div>
+</section>
       {/* Secciones Destacadas */}
       <section className="py-16 bg-dun">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
