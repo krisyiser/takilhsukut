@@ -15,6 +15,7 @@ const navigationItems = [
   { name: 'Consejo de Voladores', href: '/consejo-voladores' },
   { name: 'Mujeres de Humo', href: '/mujeres-de-humo' },
   { name: 'Danzantes y Músicos', href: '/danzantes-musicos' },
+  { name: 'Cultura y Tecnologia', href: '/tecnologia' },
   { name: 'Biblioteca Virtual', href: '/biblioteca' },
   { name: 'Galería', href: '/galeria' },
   { name: 'Noticias', href: '/noticias' },

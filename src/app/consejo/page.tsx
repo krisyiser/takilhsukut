@@ -58,35 +58,31 @@ export default function ConsejoTotonacoPage() {
         </div>
       </section>
 
-      {/* Ejes */}
+            {/* Ejes */}
       <section id="ejes" className="py-20 bg-brownSugar">
         <div className="max-w-6xl mx-auto px-6 text-white">
-          <h2 className="text-3xl font-serif font-bold text-white text-center mb-12">Ejes de Acción</h2>
+          <h2 className="text-3xl font-serif font-bold text-white text-center mb-12">Ejes del Plan de Trabajo</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {[
+            {[ 
               {
-                title: 'Espiritualidad y Sanación',
-                text: 'Ceremonias, rituales, temazcales, limpias y rezos para la armonización espiritual y física de personas y comunidades.'
+                title: 'Investigación, Organización y Capacitación',
+                text: 'Fomenta el intercambio de conocimientos y fortalece las capacidades autogestivas y organizativas. Incluye el seguimiento del Proyecto Totonaco, las asambleas comunitarias, y programas de capacitación con perspectiva de género.'
               },
               {
-                title: 'Consulta y Gobernanza',
-                text: 'Acompañamiento en asambleas, toma de decisiones y procesos colectivos desde la palabra y el consenso.'
+                title: 'Fortalecimiento del Patrimonio Cultural y Turismo',
+                text: 'Fortalece la identidad como motor de desarrollo incluyente y sostenible. Incluye la programación del Festival Cumbre Tajín, el Encuentro Internacional de Pueblos Indígenas y programas sobre etnoturismo.'
               },
               {
-                title: 'Educación con Identidad',
-                text: 'Participación en la formación de jóvenes y niños en el CAI, compartiendo saberes ancestrales en las casas-escuela.'
+                title: 'Política Climática',
+                text: 'Genera una plataforma de interaprendizaje y acciones concretas para la acción climática. Incluye programas de guardianes comunitarios, recuperación de semillas, reforestación y el Parlamento Climático Indígena.'
               },
               {
-                title: 'Justicia Comunitaria',
-                text: 'Resolución de conflictos internos desde la sabiduría, el perdón, la escucha y la palabra comunitaria.'
+                title: 'Servicio de Asesoría, Gestión y Acompañamiento',
+                text: 'Apoya a las autoridades comunitarias con asesoría legal, campañas de salud, mejora de vías de comunicación y apoyo a proyectos productivos.'
               },
               {
-                title: 'Partería y Medicina Tradicional',
-                text: 'Atención a mujeres embarazadas, preparación de remedios, herbolaria, masajes, y cuidado tradicional del cuerpo.'
-              },
-              {
-                title: 'Ceremonias Cíclicas',
-                text: 'Celebraciones rituales del calendario agrícola, como el día de los abuelos, el día de muertos y el inicio de la siembra.'
+                title: 'Vinculación Institucional y Privada',
+                text: 'Establece convenios de colaboración en áreas como investigación, desarrollo cultural y económico. Genera certeza legal y alianzas con instituciones como la UNAM, KINA8AT-ENSEMBLE y la Comisión para la Cooperación Ambiental.'
               }
             ].map((eje, i) => (
               <div key={i} className="bg-sealBrown/90 p-6 rounded-lg shadow-lg">

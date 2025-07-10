@@ -49,7 +49,12 @@ export default function Card({
           </p>
         )}
 
-        {children}
+        {/* 🔽 Aquí van los detalles adicionales (capacidad, precio, etc.) */}
+        {children && (
+          <div className="mb-4 space-y-2 text-sm text-black/80">
+            {children}
+          </div>
+        )}
 
         {href && (
           <div className="mt-4 flex items-center text-burntOrange hover:text-brownSugar transition-colors">
